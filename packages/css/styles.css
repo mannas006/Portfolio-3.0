@@ -653,6 +653,7 @@ img {
 
 /*==================== SERVICES ====================*/
 .services__container {
+  display: flex;
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
