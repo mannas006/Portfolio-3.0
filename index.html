@@ -106,13 +106,35 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'am Manas</h1>
-                            <h3 class="home__subtitle">Software Developer</h3>
-                            <p class="home__description">I'm a mission driven programmer with 1 years of experience in Cloud Support Engineer.</p>
+                            <h1 class="home__title">Hi, I am Manas</h1>
+                            <h3 class="home__subtitle" id="typing-text">Software Developer</h3>
+                            <p class="home__description">I'm a mission-driven programmer with 1 year of experience in Cloud Support Engineer.</p>
                             <a href="#contact" class="button button--flex home__button">
                                 Contact Me<i class="uil uil-message button__icon"></i>
                             </a>
                         </div>
+                        
+                        <script>
+                            // JavaScript code to add typing effect
+                            const jobTitles = ["Software Developer", "Web Developer"];
+                            let jobIndex = 0;
+                            let textIndex = 0;
+                        
+                            function type() {
+                                const currentText = jobTitles[jobIndex];
+                                document.getElementById("typing-text").innerText = currentText.slice(0, textIndex);
+                        
+                                textIndex++;
+                        
+                                if (textIndex > currentText.length) {
+                                    textIndex = 0;
+                                    jobIndex = (jobIndex + 1) % jobTitles.length;
+                                }
+                            }
+                        
+                            setInterval(type, 200); // You can adjust the interval (in milliseconds) for typing speed
+                        </script>                        
+                        
                     </div>
 
                     <div class="home__scroll">
