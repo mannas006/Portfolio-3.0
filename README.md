@@ -9,7 +9,6 @@ Website contains:
 - Qualification
 - Services
 - Portfolio
-- Project in mind
 - Contact
 - Footer 
 
