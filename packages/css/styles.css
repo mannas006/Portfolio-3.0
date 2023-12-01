@@ -520,6 +520,10 @@ img {
   width: 90%;
 }
 
+.skills__java {
+  width: 70%;
+}
+
 .skills__css {
   width: 80%;
 }
@@ -536,8 +540,8 @@ img {
   width: 70%;
 }
 
-.skills__JavaScript {
-  width: 60 %;
+.skills__js {
+  width: 60%;
 }
 
 .skills__sql {
@@ -548,23 +552,31 @@ img {
   width: 70%;
 }
 
-.skills__MySQLWorkbench {
+.skills__mysql {
   width: 80%;
 }
 
-.skills__phpMyAdmin {
+.skills__phpmyadmin {
   width: 70%;
 }
 
-.skills__Node.js {
+.skills__node {
   width: 60%;
 }
 
-.skills__VSCode {
+.skills__vscode {
   width: 90%;
 }
 
-.skills__PowerBI {
+.skills__tab {
+  width: 70%;
+}
+
+.skills__counter {
+  width: 70%;
+}
+
+.skills__bank {
   width: 70%;
 }
 
