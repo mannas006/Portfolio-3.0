@@ -536,8 +536,8 @@ img {
   width: 70%;
 }
 
-.skills__tab {
-  width: 70%;
+.skills__JavaScript {
+  width: 60%;
 }
 
 .skills__sql {
@@ -548,20 +548,24 @@ img {
   width: 70%;
 }
 
-.skills__bank {
+.skills__MySQLWorkbench {
   width: 80%;
 }
 
-.skills__google {
+.skills__phpMyAdmin {
   width: 70%;
 }
 
-.skills__counter {
-  width: 80%;
+.skills__Node.js {
+  width: 60%;
 }
 
-.skills__office {
+.skills__VSCode {
   width: 90%;
+}
+
+.skills__PowerBI {
+  width: 70%;
 }
 
 .skills__close .skills__list {
