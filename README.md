@@ -90,8 +90,6 @@ git clone https://github.com/your-username/your-portfolio.git
 # Navigate to the project directory
 cd your-portfolio
 
-# Install dependencies
-npm install
 ```
 
 ## 7. Configuration <a name="configuration"></a>
