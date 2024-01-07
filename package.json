@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio-3.0",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website Using HTML, CSS and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.html"  // Adjust this based on your project entry point
+  },
+  "keywords": [
+    "keywords",
+    "related",
+    "to",
+    "your",
+    "project"
+  ],
+  "author": "Manas Dey",
+  "license": "MIT", 
+  "dependencies": {
+    // List your production dependencies here
+  },
+  "devDependencies": {
+    // List your development dependencies here
+  }
+}
