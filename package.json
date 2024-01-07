@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.html"  // Adjust this based on your project entry point
+    "start": "index.html" 
   },
   "keywords": [
     "keywords",
@@ -17,9 +17,9 @@
   "author": "Manas Dey",
   "license": "MIT", 
   "dependencies": {
-    // List your production dependencies here
+  
   },
   "devDependencies": {
-    // List your development dependencies here
+    
   }
 }
