@@ -859,36 +859,36 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formspree.io/f/xvoedayj" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" id="name" name="name" class="contact__input" required>
                         </div>
-
+                
                         <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" id="email" name="email" class="contact__input" required>
                         </div>
                     </div>
-
+                
                     <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="contact__input" required>
                     </div>
-
+                
                     <div class="contact__content">
-                        <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="description" class="contact__label">Description</label>
+                        <textarea id="description" name="description" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
-
+                
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit" class="button button--flex">
                             Send message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
-                </form>
+                </form>                            
             </div>
 
         </section>
